@@ -21,7 +21,7 @@ $ open https://help.github.com/articles/creating-releases/
 Создание переменных среды и установка их значений.
 ```sh
 $ export GITHUB_TOKEN=**********************
-$ export GITHUB_USERNAME=Evgengrmit
+$ export GITHUB_USERNAME=DaniilRyb
 $ export PACKAGE_MANAGER=brew
 $ export GPG_PACKAGE_NAME=gpg
 ```
