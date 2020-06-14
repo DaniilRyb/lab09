@@ -54,7 +54,5 @@ if(BUILD_TESTS)
   add_test(NAME check COMMAND check)
 endif()
 
-add_executable(demo ${CMAKE_CURRENT_SOURCE_DIR}/demo/main.cpp)
-target_link_libraries(demo print)
-install(TARGETS demo RUNTIME DESTINATION bin)
+
 include(CPackConfig.cmake)
